@@ -1,4 +1,10 @@
 using ISO11820.App.Config;
+using ISO11820.App.Features.Auth;
+using ISO11820.App.Features.Calibration;
+using ISO11820.App.Features.Export;
+using ISO11820.App.Features.History;
+using ISO11820.App.Features.TestExecution;
+using ISO11820.App.Features.TestRecord;
 using ISO11820.App.Infrastructure.FileStorage;
 using ISO11820.App.Infrastructure.Persistence;
 using ISO11820.App.Runtime.Controller;
@@ -6,7 +12,7 @@ using ISO11820.App.Runtime.Services;
 
 namespace ISO11820.App.App;
 
-internal static class Bootstrapper
+public static class Bootstrapper
 {
     public static Iso11820AppContext Create()
     {
@@ -17,6 +23,12 @@ internal static class Bootstrapper
         var simulator = new SensorSimulator(settings.Simulation);
         var testController = new TestController(simulator);
         var daqWorker = new DaqWorker(testController);
+        var auth = new AuthCoordinator();
+        var testExecution = new TestExecutionCoordinator();
+        var history = new HistoryCoordinator();
+        var calibration = new CalibrationCoordinator();
+        var testRecord = new TestRecordCoordinator();
+        var export = new ExportCoordinator();
 
         databaseInitializer.EnsureCreated();
 
@@ -26,6 +38,12 @@ internal static class Bootstrapper
             databaseInitializer,
             csvSampleWriter,
             testController,
-            daqWorker);
+            daqWorker,
+            auth,
+            testExecution,
+            history,
+            calibration,
+            testRecord,
+            export);
     }
 }

@@ -1,4 +1,10 @@
 using ISO11820.App.Config;
+using ISO11820.App.Features.Auth;
+using ISO11820.App.Features.Calibration;
+using ISO11820.App.Features.Export;
+using ISO11820.App.Features.History;
+using ISO11820.App.Features.TestExecution;
+using ISO11820.App.Features.TestRecord;
 using ISO11820.App.Infrastructure.FileStorage;
 using ISO11820.App.Infrastructure.Persistence;
 using ISO11820.App.Runtime.Controller;
@@ -14,7 +20,13 @@ public sealed class Iso11820AppContext
         DatabaseInitializer databaseInitializer,
         CsvSampleWriter csvSampleWriter,
         TestController testController,
-        DaqWorker daqWorker)
+        DaqWorker daqWorker,
+        AuthCoordinator auth,
+        TestExecutionCoordinator testExecution,
+        HistoryCoordinator history,
+        CalibrationCoordinator calibration,
+        TestRecordCoordinator testRecord,
+        ExportCoordinator export)
     {
         Settings = settings;
         DbHelper = dbHelper;
@@ -22,6 +34,12 @@ public sealed class Iso11820AppContext
         CsvSampleWriter = csvSampleWriter;
         TestController = testController;
         DaqWorker = daqWorker;
+        Auth = auth;
+        TestExecution = testExecution;
+        History = history;
+        Calibration = calibration;
+        TestRecord = testRecord;
+        Export = export;
     }
 
     public AppSettings Settings { get; }
@@ -35,4 +53,16 @@ public sealed class Iso11820AppContext
     public TestController TestController { get; }
 
     public DaqWorker DaqWorker { get; }
+
+    public AuthCoordinator Auth { get; }
+
+    public TestExecutionCoordinator TestExecution { get; }
+
+    public HistoryCoordinator History { get; }
+
+    public CalibrationCoordinator Calibration { get; }
+
+    public TestRecordCoordinator TestRecord { get; }
+
+    public ExportCoordinator Export { get; }
 }

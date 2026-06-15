@@ -7,3 +7,5 @@
 *.user
 .vs/
 TestResults/
+Data/
+TestData/
