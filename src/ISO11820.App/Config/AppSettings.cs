@@ -56,6 +56,8 @@ public sealed class SimulationSettings
     public double TargetTemperature { get; init; } = 750.0;
 
     public double StableThreshold { get; init; } = 3.0;
+
+    public double TempFluctuation { get; init; } = 0.5;
 }
 
 public sealed class OutputSettings

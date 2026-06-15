@@ -6,4 +6,5 @@ namespace ISO11820.App.Shared.Models;
 public sealed record RuntimeSnapshot(
     TestState State,
     TemperatureSnapshot Temperatures,
-    IReadOnlyList<SystemMessage> Messages);
+    IReadOnlyList<SystemMessage> Messages,
+    int ElapsedSeconds);
