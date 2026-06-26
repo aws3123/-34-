@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/c/Program Files/dotnet/dotnet.exe\" build \"ISO11820.sln\")",
+      "Bash(\"/c/Program Files/dotnet/dotnet.exe\" test \"tests/ISO11820.Tests/ISO11820.Tests.csproj\")",
+      "Bash(\"/c/Program Files/dotnet/dotnet.exe\" build \"ISO11820.sln\" --no-incremental)",
+      "Bash(\"/c/Program Files/dotnet/dotnet.exe\" test \"tests/ISO11820.Tests/ISO11820.Tests.csproj\" --verbosity normal)",
+      "Bash(git init *)",
+      "Bash(git checkout *)",
+      "Bash(rm -f src/ISO11820.App/UI/Common/ButtonStateMatrix.cs src/ISO11820.App/UI/Common/ButtonStateManager.cs src/ISO11820.App/UI/Common/LoginResult.cs tests/ISO11820.Tests/Features/ButtonStateMatrixTests.cs tests/ISO11820.Tests/Features/AuthCoordinatorTests.cs)",
+      "Bash(rmdir src/ISO11820.App/UI/Common)"
+    ]
+  }
+}
