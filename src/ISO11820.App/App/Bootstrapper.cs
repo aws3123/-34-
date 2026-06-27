@@ -25,8 +25,8 @@ public static class Bootstrapper
         var daqWorker = new DaqWorker(testController);
         var auth = new AuthCoordinator();
         var testExecution = new TestExecutionCoordinator();
-        var history = new HistoryCoordinator();
-        var calibration = new CalibrationCoordinator();
+        var history = new HistoryCoordinator(dbHelper);
+        var calibration = new CalibrationCoordinator(dbHelper);
         var testRecord = new TestRecordCoordinator();
         var export = new ExportCoordinator();
 
