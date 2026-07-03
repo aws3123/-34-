@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: dependency_management
+title: NuGet 包管理与项目引用策略
+scope: []
+source_files:
+    - ISO11820.sln
+    - src/ISO11820.App/ISO11820.App.csproj
+    - src/ISO11820.Core/ISO11820.Core.csproj
+    - tests/ISO11820.Tests/ISO11820.Tests.csproj
+    - tests/ISO11820.UI.Tests/ISO11820.UI.Tests.csproj
+depends_on: []
+related_to: []

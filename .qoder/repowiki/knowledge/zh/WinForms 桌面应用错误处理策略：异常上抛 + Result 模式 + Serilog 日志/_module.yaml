@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: error_handling
+title: WinForms 桌面应用错误处理策略：异常上抛 + Result 模式 + Serilog 日志
+scope: []
+source_files:
+    - src/ISO11820.App/Program.cs
+    - src/ISO11820.App/Config/AppLogger.cs
+    - src/ISO11820.App/Features/Export/ExportCoordinator.cs
+    - src/ISO11820.Core/Models/SystemMessage.cs
+    - src/ISO11820.App/UI/Forms/MainForm.cs
+depends_on: []
+related_to: []

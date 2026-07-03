@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: frontend_style
+title: WinForms 原生控件样式与布局约定
+scope: []
+source_files:
+    - src/ISO11820.App/UI/Forms/MainForm.cs
+    - src/ISO11820.App/UI/Forms/LoginForm.cs
+    - src/ISO11820.App/UI/Chart/TemperatureChartPanel.cs
+    - src/ISO11820.App/UI/Panels/CalibrationPanel.cs
+    - .claude/skills/winforms-layout-debug/SKILL.md
+depends_on: []
+related_to: []

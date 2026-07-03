@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: build_system
+title: .NET SDK + Visual Studio Solution 构建体系
+scope: []
+source_files:
+    - ISO11820.sln
+    - src/ISO11820.Core/ISO11820.Core.csproj
+    - src/ISO11820.App/ISO11820.App.csproj
+    - tests/ISO11820.Tests/ISO11820.Tests.csproj
+    - tests/ISO11820.UI.Tests/ISO11820.UI.Tests.csproj
+    - tests/ISO11820.UI.Tests/RunTests.ps1
+depends_on: []
+related_to: []

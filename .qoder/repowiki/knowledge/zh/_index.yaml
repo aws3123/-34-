@@ -1,0 +1,221 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: master
+nodes_managed: true
+exported_at: "2026-07-02T14:22:56Z"
+modules:
+    "":
+        dir_name: ISO11820 建筑材料不燃性实验自动化测控系统（WinForms 桌面应用）
+        title: ISO11820 建筑材料不燃性实验自动化测控系统（WinForms 桌面应用）
+        scope:
+            - .claude\skills\winforms-layout-debug\SKILL.md
+            - .gitignore
+            - .remember\.gitignore
+            - .remember\logs\autonomous\save-124043.log
+            - .remember\logs\autonomous\save-124526.log
+            - .remember\logs\autonomous\save-124733.log
+            - .remember\logs\autonomous\save-125859.log
+            - .remember\logs\autonomous\save-130102.log
+            - .remember\logs\autonomous\save-133157.log
+            - .remember\logs\autonomous\save-135809.log
+            - .remember\logs\autonomous\save-140130.log
+            - .remember\logs\autonomous\save-143410.log
+            - .remember\logs\autonomous\save-150343.log
+            - .remember\logs\autonomous\save-150551.log
+            - .remember\logs\autonomous\save-151529.log
+            - .remember\logs\autonomous\save-151641.log
+            - .remember\logs\autonomous\save-151710.log
+            - .remember\logs\autonomous\save-151919.log
+            - .remember\logs\autonomous\save-151931.log
+            - .remember\logs\autonomous\save-151945.log
+            - .remember\logs\autonomous\save-152000.log
+            - .remember\logs\autonomous\save-152019.log
+            - .remember\logs\autonomous\save-152038.log
+            - .remember\logs\autonomous\save-152056.log
+            - .remember\logs\autonomous\save-152410.log
+            - .remember\logs\hook-errors.log
+            - .remember\logs\memory-2026-06-30.log
+            - .remember\now.md
+            - .remember\tmp\last-ndc.ts
+            - .remember\tmp\last-save-ts
+            - .remember\tmp\last-save.json
+            - .remember\tmp\save-session.pid
+            - .remember\today-2026-06-30.md
+            - CLAUDE.md
+            - ISO11820.sln
+            - docs\202231060826_罗凌岚_建筑材料不燃性实验自动化测控系统研究与实现（改稿）.docx
+            - docs\202231060826_罗凌岚_答辩.pptx
+            - scripts\build_ppt.py
+            - src\ISO11820.App\App\Bootstrapper.cs
+            - src\ISO11820.App\App\Iso11820AppContext.cs
+            - src\ISO11820.App\Config\AppLogger.cs
+            - src\ISO11820.App\Config\AppSettings.cs
+            - src\ISO11820.App\Features\Auth\AuthCoordinator.cs
+            - src\ISO11820.App\Features\Calibration\CalibrationCoordinator.cs
+            - src\ISO11820.App\Features\Export\CsvDataReader.cs
+            - src\ISO11820.App\Features\Export\ExcelExportService.cs
+            - src\ISO11820.App\Features\Export\ExportCoordinator.cs
+            - src\ISO11820.App\Features\Export\PdfExportService.cs
+            - src\ISO11820.App\Features\History\HistoryCoordinator.cs
+            - src\ISO11820.App\Features\TestExecution\TestExecutionCoordinator.cs
+            - src\ISO11820.App\Features\TestRecord\TestRecordCoordinator.cs
+            - src\ISO11820.App\ISO11820.App.csproj
+            - src\ISO11820.App\Infrastructure\FileStorage\CsvSampleWriter.cs
+            - src\ISO11820.App\Infrastructure\Persistence\DatabaseInitializer.cs
+            - src\ISO11820.App\Infrastructure\Persistence\DbHelper.cs
+            - src\ISO11820.App\Infrastructure\Persistence\Models\Apparatus.cs
+            - src\ISO11820.App\Infrastructure\Persistence\Models\CalibrationRecord.cs
+            - src\ISO11820.App\Infrastructure\Persistence\Models\Operator.cs
+            - src\ISO11820.App\Infrastructure\Persistence\Models\ProductMaster.cs
+            - src\ISO11820.App\Infrastructure\Persistence\Models\Sensor.cs
+            - src\ISO11820.App\Infrastructure\Persistence\Models\TestMaster.cs
+            - src\ISO11820.App\Program.cs
+            - src\ISO11820.App\Runtime\Controller\TestController.cs
+            - src\ISO11820.App\Runtime\Services\DaqWorker.cs
+            - src\ISO11820.App\Runtime\Services\SensorSimulator.cs
+            - src\ISO11820.App\Shared\Events\DataBroadcastEventArgs.cs
+            - src\ISO11820.App\Shared\Models\Records\TestRecordModels.cs
+            - src\ISO11820.App\Shared\Models\RuntimeSnapshot.cs
+            - src\ISO11820.App\UI\Chart\TemperatureChartPanel.cs
+            - src\ISO11820.App\UI\Common\ButtonStateManager.cs
+            - src\ISO11820.App\UI\Common\ButtonStateMatrix.cs
+            - src\ISO11820.App\UI\Common\LoginResult.cs
+            - src\ISO11820.App\UI\Common\ParameterValidator.cs
+            - src\ISO11820.App\UI\Dialogs\CalibrationDetailDialog.cs
+            - src\ISO11820.App\UI\Dialogs\ExportDialog.cs
+            - src\ISO11820.App\UI\Dialogs\NewTestDialog.cs
+            - src\ISO11820.App\UI\Dialogs\ParameterSettingsDialog.cs
+            - src\ISO11820.App\UI\Dialogs\TestDetailDialog.cs
+            - src\ISO11820.App\UI\Dialogs\TestRecordDialog.cs
+            - src\ISO11820.App\UI\Forms\LoginForm.cs
+            - src\ISO11820.App\UI\Forms\MainForm.cs
+            - src\ISO11820.App\UI\Panels\CalibrationPanel.cs
+            - src\ISO11820.App\UI\Panels\CalibrationPoint.cs
+            - src\ISO11820.App\appsettings.json
+            - src\ISO11820.Core\Contracts\IRuntimeClock.cs
+            - src\ISO11820.Core\Enums\TestState.cs
+            - src\ISO11820.Core\ISO11820.Core.csproj
+            - src\ISO11820.Core\Models\SystemMessage.cs
+            - src\ISO11820.Core\Models\TemperatureSnapshot.cs
+            - tests\ISO11820.Tests\Features\AppSettingsLoaderTests.cs
+            - tests\ISO11820.Tests\Features\AuthCoordinatorTests.cs
+            - tests\ISO11820.Tests\Features\BootstrapperSmokeTests.cs
+            - tests\ISO11820.Tests\Features\ButtonStateMatrixTests.cs
+            - tests\ISO11820.Tests\Features\ExportCoordinatorTests.cs
+            - tests\ISO11820.Tests\Features\TestRecordCoordinatorTests.cs
+            - tests\ISO11820.Tests\ISO11820.Tests.csproj
+            - tests\ISO11820.Tests\Persistence\CalibrationCoordinatorTests.cs
+            - tests\ISO11820.Tests\Persistence\CsvSampleWriterTests.cs
+            - tests\ISO11820.Tests\Persistence\DatabaseInitializerTests.cs
+            - tests\ISO11820.Tests\Persistence\HistoryCoordinatorTests.cs
+            - tests\ISO11820.Tests\Runtime\SensorSimulatorTests.cs
+            - tests\ISO11820.Tests\Runtime\TestControllerTests.cs
+            - tests\ISO11820.Tests\Runtime\TestStateSmokeTests.cs
+            - tests\ISO11820.UI.Tests\ISO11820.UI.Tests.csproj
+            - tests\ISO11820.UI.Tests\Infrastructure\AppLauncher.cs
+            - tests\ISO11820.UI.Tests\Infrastructure\FlaUIHelper.cs
+            - tests\ISO11820.UI.Tests\Infrastructure\ScreenshotCapture.cs
+            - tests\ISO11820.UI.Tests\Infrastructure\WaitStrategies.cs
+            - tests\ISO11820.UI.Tests\README.md
+            - tests\ISO11820.UI.Tests\RunTests.ps1
+            - tests\ISO11820.UI.Tests\Tests\TC01_Login.cs
+            - tests\ISO11820.UI.Tests\Tests\TC02_MainLayout.cs
+            - tests\ISO11820.UI.Tests\Tests\TC03_NewTest.cs
+            - tests\ISO11820.UI.Tests\Tests\TC04_StateMachine.cs
+            - tests\ISO11820.UI.Tests\Tests\TC05_ButtonState.cs
+            - tests\ISO11820.UI.Tests\Tests\TC06_Simulation.cs
+            - tests\ISO11820.UI.Tests\Tests\TC07_Messages.cs
+            - tests\ISO11820.UI.Tests\Tests\TC08_TestRecord.cs
+            - tests\ISO11820.UI.Tests\Tests\TC09_Export.cs
+            - tests\ISO11820.UI.Tests\Tests\TC10_FullFlow.cs
+            - tests\ISO11820.UI.Tests\UITestBase.cs
+            - tests\ISO11820.UI.Tests\xunit.runner.json
+            - tests\ISO11820.UI.Tests\自动化测试提示词.md
+            - 任务计划-Nlpexi-e.md
+            - 任务计划-Y-Yunye.md
+            - 任务计划-chaoxingstar.md
+            - 任务计划-userswdrs.md
+            - 协作总说明.md
+            - 我自己的计划.md
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    build_system:
+        dir_name: .NET SDK + Visual Studio Solution 构建体系
+        title: .NET SDK + Visual Studio Solution 构建体系
+        scope: []
+        source_files:
+            - ISO11820.sln
+            - src/ISO11820.Core/ISO11820.Core.csproj
+            - src/ISO11820.App/ISO11820.App.csproj
+            - tests/ISO11820.Tests/ISO11820.Tests.csproj
+            - tests/ISO11820.UI.Tests/ISO11820.UI.Tests.csproj
+            - tests/ISO11820.UI.Tests/RunTests.ps1
+        children: []
+        depends_on: []
+        related_to: []
+    configuration_system:
+        dir_name: 基于 JSON 的强类型配置系统
+        title: 基于 JSON 的强类型配置系统
+        scope: []
+        source_files:
+            - src/ISO11820.App/Config/AppSettings.cs
+            - src/ISO11820.App/Config/AppLogger.cs
+            - src/ISO11820.App/appsettings.json
+            - src/ISO11820.App/App/Bootstrapper.cs
+            - tests/ISO11820.Tests/Features/AppSettingsLoaderTests.cs
+        children: []
+        depends_on: []
+        related_to: []
+    dependency_management:
+        dir_name: NuGet 包管理与项目引用策略
+        title: NuGet 包管理与项目引用策略
+        scope: []
+        source_files:
+            - ISO11820.sln
+            - src/ISO11820.App/ISO11820.App.csproj
+            - src/ISO11820.Core/ISO11820.Core.csproj
+            - tests/ISO11820.Tests/ISO11820.Tests.csproj
+            - tests/ISO11820.UI.Tests/ISO11820.UI.Tests.csproj
+        children: []
+        depends_on: []
+        related_to: []
+    error_handling:
+        dir_name: WinForms 桌面应用错误处理策略：异常上抛 + Result 模式 + Serilog 日志
+        title: WinForms 桌面应用错误处理策略：异常上抛 + Result 模式 + Serilog 日志
+        scope: []
+        source_files:
+            - src/ISO11820.App/Program.cs
+            - src/ISO11820.App/Config/AppLogger.cs
+            - src/ISO11820.App/Features/Export/ExportCoordinator.cs
+            - src/ISO11820.Core/Models/SystemMessage.cs
+            - src/ISO11820.App/UI/Forms/MainForm.cs
+        children: []
+        depends_on: []
+        related_to: []
+    frontend_style:
+        dir_name: WinForms 原生控件样式与布局约定
+        title: WinForms 原生控件样式与布局约定
+        scope: []
+        source_files:
+            - src/ISO11820.App/UI/Forms/MainForm.cs
+            - src/ISO11820.App/UI/Forms/LoginForm.cs
+            - src/ISO11820.App/UI/Chart/TemperatureChartPanel.cs
+            - src/ISO11820.App/UI/Panels/CalibrationPanel.cs
+            - .claude/skills/winforms-layout-debug/SKILL.md
+        children: []
+        depends_on: []
+        related_to: []
+    logging_system:
+        dir_name: Serilog 文件日志系统
+        title: Serilog 文件日志系统
+        scope: []
+        source_files:
+            - src/ISO11820.App/Config/AppLogger.cs
+            - src/ISO11820.App/App/Bootstrapper.cs
+            - src/ISO11820.App/Program.cs
+        children: []
+        depends_on: []
+        related_to: []

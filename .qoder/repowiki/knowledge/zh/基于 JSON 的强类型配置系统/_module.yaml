@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: configuration_system
+title: 基于 JSON 的强类型配置系统
+scope: []
+source_files:
+    - src/ISO11820.App/Config/AppSettings.cs
+    - src/ISO11820.App/Config/AppLogger.cs
+    - src/ISO11820.App/appsettings.json
+    - src/ISO11820.App/App/Bootstrapper.cs
+    - tests/ISO11820.Tests/Features/AppSettingsLoaderTests.cs
+depends_on: []
+related_to: []
